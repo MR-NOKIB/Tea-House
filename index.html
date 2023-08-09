@@ -23,6 +23,15 @@
           }
         }
       </script>
+  <style>
+    .custom-z-index{
+      z-index: 1;
+    }
+    .custom-opacity{
+      opacity: 30%;
+    }
+  </style>
+
 </head>
 <body>
 
@@ -97,18 +106,36 @@
       </section>
 
       <section class="container mx-auto p-3 mb-20">
-        <div class="md:flex items-center container mx-auto bg-gradient-to-r from-[#F00] to-[#FF8938] md:h-[650px] p-3 rounded-lg">
-          <div class="p-10 md:w-1/2">
+        <div class="md:flex items-center container mx-auto bg-gradient-to-r from-[#F00] to-[#FF8938] h-[1030px] md:h-[650px] p-3 rounded-lg">
+          <div class="p-10 md:w-2/3">
               <h1 class="text-7xl font-bold text-white mb-10">Meet Our Super Clients</h1>
             <p class="text-white mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <button class="bg-white px-7 py-4 rounded-lg font-bold text-orange-400">Show All</button>
           </div>
-          <div class="p-10 md:w-1/2">
-            <img class="relative mb-[-33px] ms-[-33px] custom-client w-[66px] [h-66px]" src="images/client.png" alt="">
-            <div class="bg-white p-7 rounded-lg">
-              <P class="text-base">We are providing the best and suitable home insurance services for the people who are interested to treatment</P>
-            <h3 class="text-2xl">Ilham Yuda</h3>
-            <p class="text-sm">Businessman</p>
+          <div class="p-10">
+            <div class="w-3/4 sm:w-3/4 md:w-3/4 lg:w-2/4 custom-opacity lg:ml-44 relative mb-[-120px] md:mb-[-60px]">
+              <img class="relative mb-[-33px] ms-[-33px] custom-client w-[66px] [h-66px]" src="images/client.png" alt="">
+              <div class="bg-white p-7 rounded-lg">
+                <P class="text-base">We are providing the best and suitable home insurance services for the people who are interested to treatment</P>
+              <h3 class="text-2xl">Ilham Yuda</h3>
+              <p class="text-sm">Businessman</p>
+              </div>
+            </div>
+            <div class="w-3/4 md:w-2/4 custom-z-index relative">
+              <img class="relative mb-[-33px] ms-[-33px] w-[66px] [h-66px]" src="images/client.png" alt="">
+              <div class="bg-white p-7 rounded-lg">
+                <P class="text-base">We are providing the best and suitable home insurance services for the people who are interested to treatment</P>
+              <h3 class="text-2xl">Ilham Yuda</h3>
+              <p class="text-sm">Businessman</p>
+              </div>
+            </div>
+            <div class="w-3/4 md:w-2/4 custom-opacity lg:ml-44 relative mt-[-120px] md:mt-[-60px]">
+              <img class="relative mb-[-33px] ms-[-33px] custom-client w-[66px] [h-66px]" src="images/client.png" alt="">
+              <div class="bg-white p-7 rounded-lg">
+                <P class="text-base">We are providing the best and suitable home insurance services for the people who are interested to treatment</P>
+              <h3 class="text-2xl">Ilham Yuda</h3>
+              <p class="text-sm">Businessman</p>
+              </div>
             </div>
           </div>
         </div>
@@ -183,8 +210,8 @@
             <a class="mx-2 text-3xl mb-1 text-[#494949]" href=""><i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
+        <p class="text-center mt-16">© 2027 UIDesign.to - All rights reserved.</p>
       </section>
-    </footer>
-    
+    </footer>    
 </body>
 </html>
